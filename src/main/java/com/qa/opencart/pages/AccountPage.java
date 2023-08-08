@@ -16,7 +16,7 @@ public class AccountPage {
 	private WebDriver driver;
 	private ElementUtils eleUtil;
 	
-	private By logoutLink = By.xpath("//a[text()='Logout']");
+	private By logoutLink = By.linkText("Logout");
 	private By accHeader = By.xpath("//div[@id='content']/h2");
 	private By search = By.name("search");
 	private By SearchIcon = By.xpath("//div[@id='search']//button[@type='button']");
