@@ -20,7 +20,7 @@ public class LoginPage {
 	private By forgotPwdLink = By.linkText("Forgotten Password");
 	private By registerLink = By.linkText("Register");
 	private By loginLink = By.linkText("Login");
-	private By home = By.linkText("Home");
+	private By home = By.linkText("Home1");
 
 
 
